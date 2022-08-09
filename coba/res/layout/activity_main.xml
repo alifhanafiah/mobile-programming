@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+
+<RelativeLayout tools:context=".MainActivity" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/RelativeLayout1" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<TabHost android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/th" android:layout_marginTop="24dp" android:layout_marginLeft="24dp" android:layout_alignParentTop="true" android:layout_alignParentLeft="true">
+
+
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+<TabWidget
+    android:id="@android:id/tabs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+ </TabWidget>
+
+
+<FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@android:id/tabcontent">
+
+
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/ts1" android:orientation="vertical" android:background="#dbd6fd">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Aplikasi ini adalah aplikasi untuk praktek tab layouting. Pada aplikasi ini kita dapat melihat profile, sosial media, marketplace, daftar materi dan juga daftar tugas"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+</LinearLayout>
+
+
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/ts2" android:orientation="vertical" android:background="#fdd7d6">
+
+<TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textView1" android:text="Menu" android:gravity="center" android:textStyle="bold|italic" android:textSize="25sp" android:fontFamily="times new roman"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btn_1" android:layout_marginTop="14dp" android:text="Profile" android:gravity="center" android:layout_below="@+id/textView1"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btn_2" android:layout_marginLeft="37dp" android:text="Sosmed" android:layout_below="@+id/btn_1" android:layout_toRightOf="@+id/btn_5"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btn_3" android:text="Market" android:gravity="left" android:layout_below="@+id/btn_2" android:layout_alignLeft="@+id/btn_1"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btn_4" android:text="Materi Kuliah" android:layout_alignRight="@+id/btn_2" android:layout_centerVertical="true"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btn_5" android:layout_marginTop="18dp" android:text="Rekap Tugas" android:layout_below="@+id/btn_4" android:layout_alignLeft="@+id/btn_3"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btn_6" android:layout_marginTop="34dp" android:text="User Guide" android:layout_below="@+id/btn_5" android:layout_alignRight="@+id/btn_4"/>
+
+</LinearLayout>
+
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/tab3" android:orientation="vertical"> 
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="PROJECT MENGGABUNGKAN STRING"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        android:textColor="#fff" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit_daerah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_nama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Daerah Asal"
+        android:inputType="textPersonName"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/edit_makananFavorit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_daerah"
+        android:layout_below="@+id/edit_daerah"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Makanan Favorit"
+        android:inputType="textPersonName"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/edit_hobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_makananFavorit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Hobby"
+        android:inputType="textPersonName"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btn_proses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_hobby"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="PROSES"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/txt_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_proses"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Hello !"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+    
+</LinearLayout>
+
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/tab4" android:orientation="vertical"> </LinearLayout>
+
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/tab5" android:orientation="vertical"> </LinearLayout>
+
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/tab6" android:orientation="vertical"> </LinearLayout>
+
+</FrameLayout>
+
+</LinearLayout>
+
+</TabHost>
+
+</RelativeLayout>

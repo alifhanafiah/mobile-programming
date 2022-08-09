@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ktp_pict.JPG&apos; to &apos;drawable-hdpi&apos;&#x0D;&#x0A;- Original project: &apos;KTPRI&apos;&#x0D;&#x0A;- Destination element: &apos;drawable-hdpi&apos;&#x0D;&#x0A;- Original element: &apos;ktp_pict.JPG&apos;" description="Copy file" element1="res/drawable-mdpi/ktp_pict.JPG" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1655422597065" target="/project_tablayout/res/drawable-hdpi" units="0" version="1.0"/>
+</session>

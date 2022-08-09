@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">muhammadalifhanafiah_19101152630021</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity2">Activity2</string>
+    <string name="title_activity_activity3">Activity3</string>
+    <string name="title_activity_activity__menu">Activity_Menu</string>
+    <string name="title_activity_activity__about">Activity_About</string>
+    <string name="title_activity_activity__ig">Activity_Ig</string>
+    <string name="title_activity_activity__kuliah">Activity_Kuliah</string>
+    <string name="title_activity_activity__materi">Activity_Materi</string>
+    <string name="title_activity_activity_utama">Activity_utama</string>
+    <string name="title_activity_activity_tugas1">Activity_tugas1</string>
+    <string name="title_activity_activity_tugas2">Activity_tugas2</string>
+    <string name="title_activity_activity_tugas3">Activity_tugas3</string>
+    <string name="title_activity_activity_tugas4">Activity_tugas4</string>
+    <string name="title_activity_activity_tugas5">Activity_tugas5</string>
+    <string name="title_activity_activity_tugas6">Activity_tugas6</string>
+
+</resources>

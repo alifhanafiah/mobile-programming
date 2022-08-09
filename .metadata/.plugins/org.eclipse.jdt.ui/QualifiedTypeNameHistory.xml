@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.example.coba.R.id"/>
+<fullyQualifiedTypeName name="com.example.project_tablayout.Activity_Menu"/>
+<fullyQualifiedTypeName name="android.widget.TabHost"/>
+<fullyQualifiedTypeName name="android.widget.TabHost.TabSpec"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="com.example.menu_tabhost.Activity2"/>
+<fullyQualifiedTypeName name="android.app.TabActivity"/>
+<fullyQualifiedTypeName name="com.example.menu_tabhost.MainActivity"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="com.example.menu_tabhost.R"/>
+<fullyQualifiedTypeName name="com.example.alif_tab.Activity_Menu"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="android.webkit.WebView"/>
+<fullyQualifiedTypeName name="android.webkit.WebViewClient"/>
+<fullyQualifiedTypeName name="com.example.alif_tab.Activity_Ig"/>
+<fullyQualifiedTypeName name="com.example.alif_tab.Activity_Kuliah"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="com.example.alif_tab.Activity_Materi"/>
+<fullyQualifiedTypeName name="com.example.alif_tab.Activity_utama"/>
+<fullyQualifiedTypeName name="com.example.alif_tab.R.id"/>
+<fullyQualifiedTypeName name="com.example.quiz_a.Activity_input"/>
+<fullyQualifiedTypeName name="com.example.quiz_a.Activity_data"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="com.example.muhammadalifhanafiah_19101152630021_a_uas.Activity_menu"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="com.example.muhammadalifhanafiah_19101152630021_a_uas.Activity_login"/>
+<fullyQualifiedTypeName name="android.widget.Spinner"/>
+<fullyQualifiedTypeName name="com.example.muhammadalifhanafiah_19101152630021_a_uas.R.id"/>
+<fullyQualifiedTypeName name="android.widget.RadioGroup"/>
+<fullyQualifiedTypeName name="android.widget.RadioButton"/>
+<fullyQualifiedTypeName name="com.example.muhammadalifhanafiah_19101152630021_a_uas.Activity_Entry"/>
+<fullyQualifiedTypeName name="com.example.muhammadalifhanafiah_19101152630021_a_uas.Activity_Hasil"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+</qualifiedTypeNameHistroy>

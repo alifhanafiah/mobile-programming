@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Splash_Screen</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_utama">Activity_utama</string>
+    <string name="title_activity_activity_tugas1">Activity_tugas1</string>
+    <string name="title_activity_activity_tugas2">Activity_tugas2</string>
+    <string name="title_activity_activity_tugas3">Activity_tugas3</string>
+    <string name="title_activity_activity_tugas4">Activity_tugas4</string>
+    <string name="title_activity_activity_tugas5">Activity_tugas5</string>
+    <string name="title_activity_activity_tugas6">Activity_tugas6</string>
+
+</resources>

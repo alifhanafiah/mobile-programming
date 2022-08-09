@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alif_tab"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_Profile"
+            android:label="@string/title_activity_activity2" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity3"
+            android:label="@string/title_activity_activity3" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_Menu"
+            android:label="@string/title_activity_activity__menu" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_About"
+            android:label="@string/title_activity_activity__about" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_Ig"
+            android:label="@string/title_activity_activity__ig" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_Kuliah"
+            android:label="@string/title_activity_activity__kuliah" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_Materi"
+            android:label="@string/title_activity_activity__materi" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_utama"
+            android:label="@string/title_activity_activity_utama" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_tugas1"
+            android:label="@string/title_activity_activity_tugas1" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_tugas2"
+            android:label="@string/title_activity_activity_tugas2" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_tugas3"
+            android:label="@string/title_activity_activity_tugas3" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_tugas4"
+            android:label="@string/title_activity_activity_tugas4" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_tugas5"
+            android:label="@string/title_activity_activity_tugas5" >
+        </activity>
+        <activity
+            android:name="com.example.muhammadalifhanafiah_19101152630021.Activity_tugas6"
+            android:label="@string/title_activity_activity_tugas6" >
+        </activity>
+    </application>
+
+</manifest>

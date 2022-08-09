@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Aplikasi Transaksi Hotel"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edit_tgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Input Tgl Transaksi"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_tgl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:ems="10"
+        android:hint="Input Nama Pengunjung"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_kode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_nama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:ems="10"
+        android:hint="Input Kode Kamar"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/edit_lama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_kode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:ems="10"
+        android:hint="Input Lama Menginap"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_proses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_lama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:text="Proses Data" />
+
+    <TextView
+        android:id="@+id/txt_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_proses"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:text="Hello!" />
+
+    <Button
+        android:id="@+id/btn_back2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_data"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="HOME" />
+
+</RelativeLayout>
